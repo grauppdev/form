@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Challenge 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="./style.css">
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100;1,600&family=Nunito&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="first">
+        <h2>Cadastro</h2>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <label>
+                Nome
+
+                <input type="text" placeholder="Digite seu nome" name="Nome" required>
+
+            </label>
+
+
+            <label>
+                Email
+                <input type="email" placeholder="Digite seu e-mail" name="Email" required>
+
+            </label>
+
+
+            <label>
+                Idade
+                <input type="number" min="12" placeholder="Digite sua idade" name="Idade" required>
+            </label>
+
+
+
+            <label>
+                Data de Nascimento:
+
+                <input type="date" name="Nascimento>">
+            </label>
+
+
+
+            <label>
+                Onde você possui conta:
+                <br>
+                <input class="social-input" type="checkbox" name="Instagram" style="color: #EBEBEB;">Instagram</input>
+                <input class="social-input" type="checkbox" name="Facebook">Facebook</input>
+                <input class="social-input" type="checkbox" name="Youtube">Youtube</input>
+
+            </label>
+
+
+
+            <label>
+                Sexo:
+                <br>
+
+                <input class="gender" type="radio" name="genero" value="feminino"> Feminino
+                <input class="gender" type="radio" name="genero" value="masculino"> Masculino
+
+            </label>
+
+
+            <label>
+                Cor dos olhos:
+                <input type="color" name="cor-olhos">
+
+            </label>
+
+
+            <label>
+                Biografia:
+
+                <textarea placeholder="Fale sobre você" name="biografia"></textarea>
+
+
+            </label>
+
+
+            <label>
+                Foto Perfil:
+
+                <input type="file" accept="images/*" name="foto">
+
+            </label>
+
+
+
+            <label>
+                Telefone
+
+                <input type="tel" placeholder="Digite seu telefone" name="Telefone">
+
+            </label>
+
+
+
+            <label>
+                Link do Perfil do Facebook
+
+                <input type="url" name="link-facebook">
+            </label>
+
+            <label>
+                Senha
+
+                <input type="password" minlength="6" maxlength="8" required>
+
+            </label>
+
+            <button class="clean" type="reset" name="limpar">Limpar</button>
+            <button class="submit"type="submit" name="enviar">Enviar</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
