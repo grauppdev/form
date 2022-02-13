@@ -18,13 +18,14 @@ float: left;
 }
 
 h2 {
-    color: #EBEBEB;
-    padding: 0 3px;
-    position: absolute;
+    color: hsl(0, 0%, 92%);
+    padding: 0px 3px;
+    position: relative;
     font-size: 16px;
     font-weight: 300;
-    top: -2px;
+    top: 0px;
     background-color: black;
+    margin: 10px 0 10px 5px;
 }
  
 
@@ -83,7 +84,7 @@ textarea {
     cursor: pointer;
 }
 .clean:hover{
-background-color: #343B6B;
+background-color: rgb(204, 35, 35);
 color: #EBEBEB;
 transform: scale(1.3);
 transition: all 0.5s;
